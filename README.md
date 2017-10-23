@@ -54,7 +54,7 @@ Create below model, insert some data to database, review created schema
 
 Wallet
 * amount
-* owner: Customer - one-one
+* owner: Customer - one-one relation
 
 Customer
 * name
@@ -66,7 +66,7 @@ Car
 
 Shop
 * name: String
-* products: List<Product> - many-many
+* products: List<Product> - many-many relation
 
 Product
 * price
